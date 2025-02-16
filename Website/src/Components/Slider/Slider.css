@@ -1,0 +1,28 @@
+/* slider.css */
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%; /* Occupies 80% of the parent width */
+    margin: 0 auto; /* Automatically centers the container */
+    padding: 0 20px; /* Adds horizontal padding inside the slider */
+    overflow: hidden; /* Ensures the slider doesn’t go out of bounds */
+
+}
+
+  
+  .slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw; /* Adjust to control the space for each logo */
+    padding: 0 80px; /* Equal spacing between each item */
+  }
+  
+  .logo-image {
+    align-self: center;
+    max-width: 100%;
+    height: auto;
+    
+  }
+  

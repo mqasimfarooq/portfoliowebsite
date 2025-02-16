@@ -1,0 +1,65 @@
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin-left: 15%;
+    margin-right: 13%;
+    margin-bottom: 5%;
+}
+.Grid :hover{
+    background-color: whitesmoke;
+}
+.Grid :hover #p1{
+    color:#4f7bda; 
+}
+.Grid .flexy_Row:hover {
+    border-bottom: 3px solid rgb(107, 43, 43); /* This applies when hovering over a .flexy_Row */
+}
+
+.flexy_Row{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    gap: 40px;
+    border-bottom: 1px solid rgb(190, 188, 188);
+    transition: border 0.4s ease-in-out;
+
+}
+.flexycolumn1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flexycolumn2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.flexycolumn2 > #p1{
+    font-family: 'Inter',sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    transition: color 0.4s ease-in-out
+}
+
+#p1:hover{
+    color:#4f7bda; 
+}
+.flexycolumn2 > #p2{
+    margin-top: 0;
+    font-family: 'Inter',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(143, 141, 141);
+
+}
+.globe{
+    height: 50px;
+    padding-left: 20px;
+}
